@@ -22,7 +22,7 @@ function Home() {
                 <div style={{ transform: 'translatey(300px)' }}>
                     <div className='Line1'> <h1>The Ultimate Destination</h1></div>
                     <div className='Line2'> <h1>For IT Management</h1></div>
-                    <div className='getStartedButton'>  <button onClick={handleClick}>Get Started</button></div>
+                    {/* <div className='getStartedButton'>  <button onClick={handleClick}>Get Started</button></div> */}
                 </div>
                 <div className="image" style={{ backgroundImage: `url(${photo})` }}></div>
             </div>
