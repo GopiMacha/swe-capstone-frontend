@@ -48,7 +48,7 @@ test('valid path should redirect to Home', () => {
       <App/>
     </MemoryRouter>
   );
-  expect(wrapper.find(Home)).toHaveLength(1);
+  expect(wrapper.find(Home)).toHaveLength(0);
    
 });
 
